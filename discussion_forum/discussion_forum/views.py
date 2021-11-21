@@ -3,10 +3,10 @@ from django.http import HttpResponseRedirect
 from django.views.generic import TemplateView
 
 class TestPage(TemplateView):
-    template_name = 'login_test.html'
+    template_name = 'test.html'
 
 class ThanksPage(TemplateView):
-    template_name = 'logout_test.html'
+    template_name = 'thanks.html'
 
 class HomePage(TemplateView):
     template_name = "index.html"
