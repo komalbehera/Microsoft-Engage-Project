@@ -69,8 +69,8 @@ And navigate to http://127.0.0.1:8000
 ## Features
 
 * [Application Dashboard](#application-Dashboard)
-* [Login/Registration and User Authentication](#Login-Registration-and-User-Authentication)
-* [Inbox/Chat room](#chatroom-inbox)
+* [Login/Registration and User Authentication](#Login-or-Registration-and-User-Authentication)
+* [Inbox/Chat room](#chatroom)
 * [Forum system](#management-systems)
 * [Blog Management system](#management-systems)
 * [Security](#security)
@@ -136,7 +136,7 @@ The navigation bar has options to signup/login into the web-app; create new foru
   * ability to delete your own forum replies 
 
 
-### Login/Registration and User Authentication
+### Login or Registration and User Authentication
 
 <p>
   <img src="_git%20assets/login.png" width="400" align="right"/>
@@ -146,7 +146,7 @@ Discussion Forum supports a complete login/registration and User Profile system.
 
 The app uses several authentication methods for signing up and logging in. It checks for `empty fields`, `wrong username`, `wrong password`, `SQL errors`, `server errors` and in case of signing up, `corrupted image` or `wrong image type` errors
 
-### ChatRoom / Inbox
+### ChatRoom
 
 <p align="center">
   <img src="_git%20assets/inbox.png" width="600" align="center"/>
@@ -174,11 +174,5 @@ Discussion Forum also has a chatbox, which uses `Django` & `AJAX` for real-time 
 
 ## Contributor
 
-A huge thanks to the wonderful team without which this entire project would not have been possible. Check out our profiles and star our repos! :)
-
-<img src="_git%20assets/me.png" width="150"/> | <img src="_git%20assets/kamal.png" width="150"/> | <img src="_git%20assets/ubaid.png" width="150"/> | <img src="_git%20assets/ait.png" width="150"/>
----|---|---|---
-[msaad1999](https://github.com/msaad1999) | [skamal16](https://github.com/skamal16) | [UbaidAsim](https://github.com/aitasadduq) | [aitasadduq](https://github.com/aitasadduq)
-
-
+Komal Trishna Behera
 
