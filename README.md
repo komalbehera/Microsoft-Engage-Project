@@ -141,7 +141,7 @@ Discussion Forum also has a chatbox, which uses `Django` for real-time chatting 
 
 * `Password hashing` before storing in database.
 * Password Reset done through individually created `encrypted tokens` sent via email as a form of a link. The tokens have a certain expiry date after which they cannot be used.
-* 
+
 ## Future Improvements
 * Optimization (in components like chat room)
 * Implementing `Vue.js` for chat room.
