@@ -2,10 +2,6 @@
 # Microsoft-Engage-Project
 ![ms](https://user-images.githubusercontent.com/58564545/142769147-e13fd821-056c-46fd-b2fb-b62c2eb975d2.png)
 
-<p align="center">
-  <img src="_git%20assets/cover.png" width="600" align="center"/>
-</p>
-
 A Django based Discussion Forum web-app.
 # Table of Contents
 
