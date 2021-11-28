@@ -73,8 +73,6 @@ And navigate to http://127.0.0.1:8000
 * [Inbox/Chat room](#chatroom-inbox)
 * [Forum system](#management-systems)
 * [Blog Management system](#management-systems)
-* [Poll/Voting Management system](#management-systems)
-* [Events Management System](#management-systems)
 * [Security](#security)
 
 
