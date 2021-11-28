@@ -13,7 +13,7 @@
 
 * [Installation](#installation)
   * [Requirements](#requirements)
-  * [Setup](#Setup))
+  * [Setup](#Setup)
 * [Features](#Features)
 * [Components](#Components)
   * [Languages](#Languages)
@@ -106,7 +106,7 @@ BootStrap v4.2.1
 
 #### Techniques
 ```
-AJAX
+Web Socket
 ```
 
 ## Details
@@ -152,7 +152,7 @@ The app uses several authentication methods for signing up and logging in. It ch
   <img src="_git%20assets/inbox.png" width="600" align="center"/>
 </p>
 
-Discussion Forum also has a chatbox, which uses `Django` & `AJAX` for real-time chatting with other users. A user can access a chat forum by clicking on existing list of forums available , which will retrieve all the chat messages from the database. Chatting is done in real-time, without the need to refresh the page continuously.
+Discussion Forum also has a chatbox, which uses `Django` for real-time chatting with other users. A user can access a chat forum by clicking on existing list of forums available , which will retrieve all the chat messages from the database. Chatting is done in real-time, without the need to refresh the page continuously.
 
 **Possible Improvements**:
 * `optimization`: All messages of a chat are retrieved at once, and this can cause delays if the chat is big. This can be fixed by implementing incremental load of messages to load only the messages being displayed on-screen.
@@ -163,12 +163,9 @@ Discussion Forum also has a chatbox, which uses `Django` & `AJAX` for real-time 
 
 * `Password hashing` before storing in database.
 * Password Reset done through individually created `encrypted tokens` sent via email as a form of a link. The tokens have a certain expiry date after which they cannot be used.
-* Filtering of information obtained from `$_GET` and `$_POST` methods to prevent `header injection`.
-* Implementation of `MySQLi Prepared Statements` for **advanced** database security.
-
+* 
 ## Future Improvements
 * Optimization (in components like chat room)
-* Integration of advanced frameworks like `Laravel`
 * Implementing `Vue.js` for chat room.
 * Continuous Bug fixes and improvements
 
